@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admissions information for Engineering College">
+    <title>Admissions - Engineering College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Fixed Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Engineering College</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="student-life.html">Student Life</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light ms-lg-2" href="registration.html">Apply Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold mb-3">Admissions</h1>
+                    <p class="lead text-muted">Begin your journey to becoming a world-class engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Overview -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="h3 fw-bold mb-4">Admissions Overview</h2>
+                    <p>Engineering College welcomes applications from qualified students worldwide who are passionate
+                        about engineering and technology. Our admissions process is designed to identify students who
+                        demonstrate academic excellence, creative problem-solving abilities, and a commitment to making
+                        a positive impact.</p>
+                    <p>We offer multiple intake periods throughout the year and provide flexible study options to
+                        accommodate diverse student needs. Our admissions team is dedicated to supporting you through
+                        every step of the application process.</p>
+
+                    <div class="alert alert-info mt-4" role="alert">
+                        <h4 class="alert-heading">Application Deadlines</h4>
+                        <p class="mb-0"><strong>Fall Intake:</strong> June 30 | <strong>Spring Intake:</strong> December
+                            15 | <strong>Summer Intake:</strong> April 30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Process -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h2 class="display-6 fw-bold mb-3">Application Process</h2>
+                    <p class="lead text-muted">Follow these simple steps to apply</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step text-center">
+                        <div class="step-number bg-primary text-white mx-auto mb-3">1</div>
+                        <h3 class="h5 fw-bold mb-3">Complete Online Application</h3>
+                        <p class="text-muted">Fill out our comprehensive registration form with your personal and
+                            academic details</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step text-center">
+                        <div class="step-number bg-primary text-white mx-auto mb-3">2</div>
+                        <h3 class="h5 fw-bold mb-3">Submit Documents</h3>
+                        <p class="text-muted">Upload transcripts, test scores, identification, and recommendation
+                            letters</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step text-center">
+                        <div class="step-number bg-primary text-white mx-auto mb-3">3</div>
+                        <h3 class="h5 fw-bold mb-3">Application Review</h3>
+                        <p class="text-muted">Our admissions committee carefully evaluates your application and
+                            qualifications</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step text-center">
+                        <div class="step-number bg-primary text-white mx-auto mb-3">4</div>
+                        <h3 class="h5 fw-bold mb-3">Receive Decision</h3>
+                        <p class="text-muted">Get your admission decision within 2-4 weeks and begin your enrollment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <a href="registration.html" class="btn btn-primary btn-lg">Start Your Application</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="display-6 fw-bold mb-4">Admission Requirements</h2>
+
+                    <!-- Accordion for Requirements -->
+                    <div class="accordion" id="requirementsAccordion">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#undergraduate" aria-expanded="true" aria-controls="undergraduate">
+                                    Undergraduate Programs
+                                </button>
+                            </h3>
+                            <div id="undergraduate" class="accordion-collapse collapse show"
+                                data-bs-parent="#requirementsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>High school diploma or equivalent with minimum 75% aggregate</li>
+                                        <li>Strong performance in Mathematics and Science subjects</li>
+                                        <li>SAT scores (minimum 1200) or equivalent standardized test</li>
+                                        <li>English proficiency test (TOEFL 80+ or IELTS 6.5+) for international
+                                            students</li>
+                                        <li>Two letters of recommendation</li>
+                                        <li>Personal statement explaining your interest in engineering</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#graduate" aria-expanded="false" aria-controls="graduate">
+                                    Graduate Programs
+                                </button>
+                            </h3>
+                            <div id="graduate" class="accordion-collapse collapse" data-bs-parent="#requirementsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Bachelor's degree in Engineering or related field with minimum 3.0 GPA</li>
+                                        <li>GRE scores (minimum 310) or equivalent</li>
+                                        <li>English proficiency test (TOEFL 90+ or IELTS 7.0+) for international students</li>
+                                        <li>Three letters of recommendation from academic or professional sources</li>
+                                        <li>Statement of purpose outlining research interests and career goals</li>
+                                        <li>Resume or CV detailing relevant experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#international" aria-expanded="false" aria-controls="international">
+                                    International Students
+                                </button>
+                            </h3>
+                            <div id="international" class="accordion-collapse collapse"
+                                data-bs-parent="#requirementsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>All standard admission requirements apply</li>
+                                        <li>Valid passport copy</li>
+                                        <li>Official transcripts with certified English translations</li>
+                                        <li>Financial statement showing proof of funds</li>
+                                        <li>Student visa documentation support provided after admission</li>
+                                        <li>International credential evaluation (WES or equivalent)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tuition & Fees -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-6 fw-bold mb-3">Tuition & Fees</h2>
+                    <p class="lead text-muted">Transparent pricing for quality education</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th scope="col">Program Level</th>
+                                    <th scope="col">Domestic Students</th>
+                                    <th scope="col">International Students</th>
+                                    <th scope="col">Additional Fees</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Undergraduate (per year)</strong></td>
+                                    <td>$12,000</td>
+                                    <td>$22,000</td>
+                                    <td>$800</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Graduate (per year)</strong></td>
+                                    <td>$15,000</td>
+                                    <td>$25,000</td>
+                                    <td>$1,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Online Programs (per year)</strong></td>
+                                    <td>$10,000</td>
+                                    <td>$18,000</td>
+                                    <td>$500</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-muted mt-3"><small><strong>Note:</strong> Additional fees include library access, lab
+                            fees, student activities, and technology resources. Room and board costs vary by
+                            accommodation choice and are not included above. Financial aid and scholarships are
+                            available for qualified students.</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financial Aid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="h3 fw-bold mb-4">Financial Aid & Scholarships</h2>
+                    <p>Engineering College is committed to making quality education accessible. We offer various
+                        financial aid options including:</p>
+                    <div class="row g-4 mt-2">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h3 class="h5 card-title">Merit Scholarships</h3>
+                                    <p class="card-text">Up to 50% tuition coverage for outstanding academic performance
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h3 class="h5 card-title">Need-Based Aid</h3>
+                                    <p class="card-text">Financial assistance based on demonstrated financial need</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h3 class="h5 card-title">Work-Study Programs</h3>
+                                    <p class="card-text">On-campus employment opportunities to offset education costs
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h3 class="h5 card-title">External Scholarships</h3>
+                                    <p class="card-text">Guidance on applying for government and private scholarships
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="display-6 fw-bold mb-3">Questions About Admissions?</h2>
+                    <p class="lead mb-0">Our admissions team is here to help you every step of the way</p>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+                    <a href="contact.html" class="btn btn-light btn-lg me-2">Contact Us</a>
+                    <a href="registration.html" class="btn btn-outline-light btn-lg">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Engineering College</h5>
+                    <p class="text-light">Committed to excellence in engineering education and research since 1985.</p>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="programs.html" class="text-light text-decoration-none">Programs</a></li>
+                        <li><a href="admissions.html" class="text-light text-decoration-none">Admissions</a></li>
+                        <li><a href="student-life.html" class="text-light text-decoration-none">Student Life</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h6 class="fw-bold mb-3">Contact</h6>
+                    <ul class="list-unstyled text-light">
+                        <li>123 Engineering Drive</li>
+                        <li>Tech City, TC 12345</li>
+                        <li>Phone: (555) 123-4567</li>
+                        <li>Email: info@engcollege.edu</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h6 class="fw-bold mb-3">Connect With Us</h6>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-light" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg></a>
+                        <a href="#" class="text-light" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg></a>
+                        <a href="#" class="text-light" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="text-center text-light">
+                <p class="mb-0">&copy; 2025 Engineering College. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
