@@ -2,12 +2,6 @@
 
 A professional, responsive multi-page website for Engineering College built with HTML5, CSS3, Bootstrap 5, and vanilla JavaScript.
 
-## 🌐 Live Demo
-- **GitHub Repository**: `https://github.com/yourusername/engineering-college-website`
-- **Live Site**: `https://yourusername.github.io/engineering-college-website/`
-
-## 📄 Page Map
-
 The website consists of 6 main pages:
 
 1. **Home (index.html)** - Hero section, statistics, features, and call-to-action
@@ -179,8 +173,4 @@ For questions or feedback about this project:
 - Phone: (555) 123-4567
 
 ## 📄 License
-This project is created for educational purposes. All rights reserved.
-
----
-
-**Note**: This is a static demonstration website. All forms and contact information are for demonstration purposes only.
+This project is created for educational purposes. By Adolat Gharibshoeva, CS 2028
