@@ -1,0 +1,1 @@
+# web-midterm-Adolat_Gharibshoeva
